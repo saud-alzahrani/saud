@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مرشد التخصص</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css"></head><body><div class="w">
+<header><div><h1 id="ti"></h1><div class="sub" id="su"></div></div><button class="lang" id="lg">EN</button></header>
+<nav class="tabs"><button class="tb on" data-t="calc" id="tc"></button><button class="tb" data-t="cat" id="tk"></button></nav>
+<div id="pcalc">
+
+<div class="panel">
+<div class="grid">
+<div><label id="l1"></label><input id="hs" type="number" min="0" max="100" step="0.01" inputmode="decimal" placeholder="0–100"></div>
+<div><label id="l2"></label><input id="qu" type="number" min="0" max="100" step="0.01" inputmode="decimal" placeholder="0–100"></div>
+<div><label id="l3"></label><input id="ta" type="number" min="0" max="100" step="0.01" inputmode="decimal" placeholder="0–100"></div>
+<div><label id="l4"></label><input id="ie" type="number" min="0" max="9" step="0.5" inputmode="decimal" placeholder="0–9"></div>
+<div><label id="l5"></label><input id="st" type="number" min="0" max="100" step="1" inputmode="numeric" placeholder="0–100"></div>
+</div><div class="err" id="er"></div></div>
+
+<div id="res" hidden>
+<div class="panel score"><div class="sum" id="sm"></div><div class="big" id="bg"></div></div>
+<div class="f"><select id="fu"></select><select id="ff"></select><select id="fs"></select></div>
+<div id="ls"></div></div>
+
+</div>
+<div id="pcat" hidden>
+<div class="cf"><input id="ks" type="search"><select id="ku"></select><select id="kf"></select></div>
+<div class="kc" id="kc"></div><div id="kl"></div></div>
+<div class="team panel"><div class="th"><span class="ar">فريق العمل</span><span class="en">Project Team</span></div>
+<div class="chips"><span>سعود محمد الزهراني</span><span>عبدالله مخلد المطيري</span><span>بسام حسان باثابت</span><span>ثامر جمعان الزهراني</span><span>حامد عبد الرحمن الحربي</span><span>سعيد بندر الزهراني</span></div>
+<div class="sch"><span class="ar">ثانوية الحطيم · الصف الثاني الثانوي (٣)</span><span class="en">Al-Hutaim Secondary School · Grade 11 (Class 3)</span></div></div>
+<div class="note" id="nt"></div></div>
+<div class="dl" id="dl" hidden><div class="sh" id="sh"></div></div>
+<script src="script.js"></script></body></html>
